@@ -1,0 +1,22 @@
+{
+    "name": "jose/bienesraices-poo",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "JOSE",
+            "email": "jzambranom30@uteq.edu.ec"
+        }
+    ],
+    "require": {
+        "intervention/image": "2.7",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./Models",
+            "MVC\\" : "./",
+            "Controller\\" : "./Controllers"
+        }
+    }
+}
